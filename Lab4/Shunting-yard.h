@@ -3,9 +3,9 @@
 
 #include <iostream>
 #include <string>
-#include "Steck.h"
+#include "Stack.h"
 
-void apply(Steck**, Steck**);
+void apply(Stack**, Stack**);
 void calc();
 
 #endif

@@ -1,6 +1,6 @@
 #include "Shunting-yard.h"
 
-void apply(Steck** operators, Steck** output)
+void apply(Stack** operators, Stack** output)
 {
 	if (getFront(*operators) == "*")
 	{
@@ -46,8 +46,8 @@ void apply(Steck** operators, Steck** output)
 }
 void calc()
 {
-	Steck* operators = nullptr;
-	Steck* output = nullptr;
+	Stack* operators = nullptr;
+	Stack* output = nullptr;
 	string expr;
 	cout << "Enter ur expression: ";
 	cin >> expr;
