@@ -117,11 +117,9 @@
   <ItemGroup>
     <ClCompile Include="Shunting-yard.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="stack.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shunting-yard.h" />
-    <ClInclude Include="stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

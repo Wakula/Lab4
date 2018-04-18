@@ -1,6 +1,2 @@
-﻿  Shunting-yard.cpp
-  Source.cpp
-  stack.cpp
-  Создание кода...
-c:\users\cirilva\source\repos\lab4\lab4\stack.cpp(30): warning C4715: getSize: значение возвращается не при всех путях выполнения
+﻿  Source.cpp
   Lab4.vcxproj -> C:\Users\cirilva\source\repos\Lab4\Debug\Lab4.exe
