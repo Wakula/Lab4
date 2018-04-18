@@ -16,8 +16,8 @@ string getFront(Stack* s)
 
 string pop(Stack** s)
 {
-	string t = (*s)->data;
 	if (*s == nullptr) return "";
+	string t = (*s)->data;
 	Stack* tmp = (*s)->next;
 	delete (*s);
 	(*s) = tmp;
